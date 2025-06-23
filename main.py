@@ -17,7 +17,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://pyaarkepatr.com",
-        "https://www.pyaarkepatr.com"
+        "https://www.pyaarkepatr.com",
+        "https://api.pyaarkepatr.com"
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS", "PUT"],
