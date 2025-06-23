@@ -19,7 +19,7 @@ app.add_middleware(
         "https://pyaarkepatr.com"
     ],
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "OPTIONS", "PUT"],
     allow_headers=["*"],
 )
 
