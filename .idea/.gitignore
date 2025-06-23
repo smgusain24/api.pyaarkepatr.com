@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment
+.env
+
+# SQLite DB
+subscribers.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Others
+*.log
+*.bak
+*.tmp
